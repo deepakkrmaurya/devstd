@@ -1,6 +1,7 @@
 <html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
 
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style type="text/css">
             :host,
             :root {
@@ -918,11 +919,11 @@
     <body class="home-page">
         <div class="header-wrapper header-wrapper-home">
             <!-- ******HEADER****** -->
-            <header id="header" class="header fixed-top">
+            <!-- <header id="header" class="header fixed-top">
                 <div class="container">
                     <h1 class="logo">
                         <a href="index.html"><span class="highlight">Dev</span>Studio</a>
-                    </h1><!--//logo-->
+                    </h1>
                     <nav class="main-nav navbar navbar-expand-md navbar-dark">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false"
@@ -940,7 +941,7 @@
                                             <path fill="currentColor"
                                                 d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
                                             </path>
-                                        </svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></a>
+                                        </svg>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="work.html">Our Work</a></li>
                                         <li><a class="dropdown-item" href="case-study-1.html">Single Case Study 1</a>
@@ -950,15 +951,15 @@
                                         <li><a class="dropdown-item" href="blog-post.html">Single Blog Post</a></li>
                                         <li><a class="dropdown-item" href="404.html">404 Page</a></li>
                                     </ul>
-                                </li><!--//dropdown-->
+                                </li>
                                 <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                                 <li class="nav-item last"><a class="nav-link" href="contact.html">Contact</a></li>
-                            </ul><!--//nav-->
-                        </div><!--//navabr-collapse-->
-                    </nav><!--//main-nav-->
-                </div><!--//container-->
-            </header><!--//header-->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header> -->
             <div class="bg-carousel-wrapper">
                 <div id="bg-carousel" class="bg-carousel carousel slide carousel-fade pointer-event"
                     data-bs-ride="carousel" data-bs-interval="6000">
@@ -992,8 +993,9 @@
         <section id="who" class="who section">
             <div class="container text-center">
                 <h2 class="title text-center">Who We Are</h2>
-                <p class="intro text-center">We are a small team of web developers and designers based in XYZ. We are
-                    specialised in JavaScript, AngularJS and Python. </p>
+                <p class="intro text-center">We're a compact team of web developers and designers specializing in
+                    JavaScript, AngularJS and Python development. We build digital solutions with precision and passion.
+                </p>
                 <div class="row benefits text-center">
                     <div class="item col-lg-3 col-md-6 col-12">
                         <div class="item-inner rounded">
@@ -1026,7 +1028,7 @@
                             <h3 class="sub-title">Agile approach</h3>
                             <div class="desc">
                                 <p>You can change the icon above to any of the 1000+ <a class="text-link"
-                                        href="https://icons.getbootstrap.com/">Bootstrap SVG icons</a> available. Lorem
+                                        href="/">Bootstrap SVG icons</a> available. Lorem
                                     ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div><!--//item-inner-->
@@ -1073,10 +1075,66 @@
                         </div><!--//item-inner-->
                     </div><!--//item-->
                 </div><!--//row-->
-                <a class="btn btn-cta btn-cta-secondary" href="about.html">More about us</a>
+                <!-- <a class="btn btn-cta btn-cta-secondary" href="
+                ">More about us</a> -->
             </div><!--//container-->
         </section><!--//who-->
+<div class="container py-5">
+            <div class="row g-4">
+                <!-- Mobile App Development Card -->
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-container mobile-app">
+                                <i class="fas fa-mobile-alt fa-3x"></i>
+                            </div>
+                            <h3 class="card-title">Mobile App Development</h3>
+                            <p class="card-text">
+                                Create powerful cross-platform mobile applications with React Native or Flutter for iOS
+                                and Android.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#modal-contact" data-bs-backdrop="static">Learn More</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Web Development Card -->
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-container web-dev">
+                                <i class="fas fa-code fa-3x"></i>
+                            </div>
+                            <h3 class="card-title">Web Development</h3>
+                            <p class="card-text">
+                                Build responsive, modern websites and web applications using React, Angular, or Vue.js.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#modal-contact" data-bs-backdrop="static">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science Card -->
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-container data-science">
+                                <i class="fas fa-chart-line fa-3x"></i>
+                            </div>
+                            <h3 class="card-title">Data Science</h3>
+                            <p class="card-text">
+                                Extract insights from your data with machine learning, statistical analysis, and
+                                visualization.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#modal-contact" data-bs-backdrop="static">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- ******Latest work section****** -->
         <section id="latest-work" class="latest-work section">
             <div class="container-fluid text-center">
@@ -1092,12 +1150,12 @@
                                 <div class="item item-3 tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
                                     <div class="row">
                                         <figure class="figure-container col-lg-6 col-12">
-                                            <a class="img-link" href="case-study-1.html" target="_blank"></a>
+                                            <a class="img-link" href="/"></a>
                                         </figure>
                                         <div class="content col-lg-6 col-12">
                                             <div class="content-inner">
-                                                <h3 class="project-title"><a class="text-link"
-                                                        href="case-study-1.html">Case Study Three Heading</a></h3>
+                                                <h3 class="project-title"><a class="text-link" href="/">Case Study Three
+                                                        Heading</a></h3>
                                                 <ul class="meta list-unstyled">
                                                     <li><strong class="me-1">Client:</strong> Dropbox</li>
                                                     <li><strong class="me-1">What we did:</strong> Site design &amp;
@@ -1117,7 +1175,7 @@
                                                                 d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z">
                                                             </path>
                                                         </svg><!-- <i class="fas fa-briefcase"></i> Font Awesome fontawesome.com -->
-                                                        <a class="more-link text-link" href="case-study-1.html">Read
+                                                        <a class="more-link text-link" href="/">Read
                                                             full case study</a>
                                                     </p>
                                                     <p class="link"><svg class="svg-inline--fa fa-up-right-from-square"
@@ -1129,9 +1187,7 @@
                                                                 d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z">
                                                             </path>
                                                         </svg><!-- <i class="fas fa-external-link-alt"></i> Font Awesome fontawesome.com -->
-                                                        <a class="site-link text-link"
-                                                            href="https://themes.3rdwavemedia.com/"
-                                                            target="_blank">Website link</a>
+                                                        <a class="site-link text-link" href="/">Website link</a>
                                                     </p>
                                                 </div><!--//desc-->
                                             </div><!--//conten-inner-->
@@ -1142,12 +1198,12 @@
                                     tabindex="-1">
                                     <div class="row">
                                         <figure class="figure-container col-lg-6 col-12">
-                                            <a href="case-study-1.html" target="_blank"></a>
+                                            <a href="/"></a>
                                         </figure>
                                         <div class="content col-lg-6 col-12">
                                             <div class="content-inner">
-                                                <h3 class="project-title"><a class="text-link"
-                                                        href="case-study-1.html">Case Study One Heading</a></h3>
+                                                <h3 class="project-title"><a class="text-link" href="/">Case Study One
+                                                        Heading</a></h3>
                                                 <ul class="meta list-unstyled">
                                                     <li><strong class="me-1">Client:</strong> Google</li>
                                                     <li><strong class="me-1">What we did:</strong> SaaS development, UX
@@ -1168,7 +1224,7 @@
                                                             d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z">
                                                         </path>
                                                     </svg><!-- <i class="fas fa-briefcase"></i> Font Awesome fontawesome.com -->
-                                                    <a class="more-link text-link" href="case-study-1.html">Read full
+                                                    <a class="more-link text-link" href="/">Read full
                                                         case study</a>
                                                 </p>
                                                 <p class="link"><svg class="svg-inline--fa fa-up-right-from-square"
@@ -1180,8 +1236,7 @@
                                                             d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z">
                                                         </path>
                                                     </svg><!-- <i class="fas fa-external-link-alt"></i> Font Awesome fontawesome.com -->
-                                                    <a class="site-link text-link"
-                                                        href="https://themes.3rdwavemedia.com/" target="_blank">Website
+                                                    <a class="site-link text-link" href="/">Website
                                                         link</a>
                                                 </p>
                                             </div><!--//content-inner-->
@@ -1192,12 +1247,12 @@
                                     tabindex="-1">
                                     <div class="row">
                                         <figure class="figure-container col-lg-6 col-12">
-                                            <a class="img-link" href="case-study-2.html" target="_blank"></a>
+                                            <a class="img-link" href="/"></a>
                                         </figure>
                                         <div class="content col-lg-6 col-12">
                                             <div class="content-inner">
-                                                <h3 class="project-title"><a class="text-link"
-                                                        href="case-study-1.html">Case Study Two Heading</a></h3>
+                                                <h3 class="project-title"><a class="text-link" href="
+                                                        ">Case Study Two Heading</a></h3>
                                                 <ul class="meta list-unstyled">
                                                     <li><strong class="me-1">Client:</strong> Amazon</li>
                                                     <li><strong class="me-1">What we did:</strong> App development</li>
@@ -1217,7 +1272,7 @@
                                                             d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z">
                                                         </path>
                                                     </svg><!-- <i class="fas fa-briefcase"></i> Font Awesome fontawesome.com -->
-                                                    <a class="more-link text-link" href="case-study-2.html">Read full
+                                                    <a class="more-link text-link" href="/">Read full
                                                         case study</a>
                                                 </p>
                                                 <p class="link"><svg class="svg-inline--fa fa-up-right-from-square"
@@ -1229,8 +1284,7 @@
                                                             d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z">
                                                         </path>
                                                     </svg><!-- <i class="fas fa-external-link-alt"></i> Font Awesome fontawesome.com -->
-                                                    <a class="site-link text-link"
-                                                        href="https://themes.3rdwavemedia.com/" target="_blank">Website
+                                                    <a class="site-link text-link" href="/">Website
                                                         link</a>
                                                 </p>
                                             </div><!--//content-inner-->
@@ -1241,12 +1295,12 @@
                                     tabindex="-1">
                                     <div class="row">
                                         <figure class="figure-container col-lg-6 col-12">
-                                            <a class="img-link" href="case-study-1.html" target="_blank"></a>
+                                            <a class="img-link" href="/"></a>
                                         </figure>
                                         <div class="content col-lg-6 col-12">
                                             <div class="content-inner">
-                                                <h3 class="project-title"><a class="text-link"
-                                                        href="case-study-1.html">Case Study Three Heading</a></h3>
+                                                <h3 class="project-title"><a class="text-link" href="
+                                                        ">Case Study Three Heading</a></h3>
                                                 <ul class="meta list-unstyled">
                                                     <li><strong class="me-1">Client:</strong> Dropbox</li>
                                                     <li><strong class="me-1">What we did:</strong> Site design &amp;
@@ -1266,7 +1320,7 @@
                                                                 d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z">
                                                             </path>
                                                         </svg><!-- <i class="fas fa-briefcase"></i> Font Awesome fontawesome.com -->
-                                                        <a class="more-link text-link" href="case-study-1.html">Read
+                                                        <a class="more-link text-link" href="/">Read
                                                             full case study</a>
                                                     </p>
                                                     <p class="link"><svg class="svg-inline--fa fa-up-right-from-square"
@@ -1278,9 +1332,7 @@
                                                                 d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z">
                                                             </path>
                                                         </svg><!-- <i class="fas fa-external-link-alt"></i> Font Awesome fontawesome.com -->
-                                                        <a class="site-link text-link"
-                                                            href="https://themes.3rdwavemedia.com/"
-                                                            target="_blank">Website link</a>
+                                                        <a class="site-link text-link" href="/">Website link</a>
                                                     </p>
                                                 </div><!--//desc-->
                                             </div><!--//conten-inner-->
@@ -1290,12 +1342,12 @@
                                 <div class="item item-1 tns-item tns-slide-cloned tns-slide-active">
                                     <div class="row">
                                         <figure class="figure-container col-lg-6 col-12">
-                                            <a href="case-study-1.html" target="_blank"></a>
+                                            <a href="/"></a>
                                         </figure>
                                         <div class="content col-lg-6 col-12">
                                             <div class="content-inner">
-                                                <h3 class="project-title"><a class="text-link"
-                                                        href="case-study-1.html">Case Study One Heading</a></h3>
+                                                <h3 class="project-title"><a class="text-link" href="
+                                                        ">Case Study One Heading</a></h3>
                                                 <ul class="meta list-unstyled">
                                                     <li><strong class="me-1">Client:</strong> Google</li>
                                                     <li><strong class="me-1">What we did:</strong> SaaS development, UX
@@ -1316,7 +1368,7 @@
                                                             d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z">
                                                         </path>
                                                     </svg><!-- <i class="fas fa-briefcase"></i> Font Awesome fontawesome.com -->
-                                                    <a class="more-link text-link" href="case-study-1.html">Read full
+                                                    <a class="more-link text-link" href="/">Read full
                                                         case study</a>
                                                 </p>
                                                 <p class="link"><svg class="svg-inline--fa fa-up-right-from-square"
@@ -1328,8 +1380,7 @@
                                                             d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z">
                                                         </path>
                                                     </svg><!-- <i class="fas fa-external-link-alt"></i> Font Awesome fontawesome.com -->
-                                                    <a class="site-link text-link"
-                                                        href="https://themes.3rdwavemedia.com/" target="_blank">Website
+                                                    <a class="site-link text-link" href="/">Website
                                                         link</a>
                                                 </p>
                                             </div><!--//content-inner-->
@@ -1346,12 +1397,13 @@
                             tabindex="-1"></button><button type="button" data-nav="2" aria-controls="work-slider"
                             style="" aria-label="Carousel Page 3" class="" tabindex="-1"></button></div>
                 </div> -->
-                <a class="btn btn-cta btn-cta-secondary" href="work.html">View all case studies</a>
-            </div><!--container-fluid-->
+                    <!-- <a class="btn btn-cta btn-cta-secondary" href="
+                    ">View all case studies</a> -->
+                </div><!--container-fluid-->
         </section><!--//latest-work-->
 
         <!-- ******Testimonials Section****** -->
-        <section id="testimonials" class="testimonials section">
+        <!-- <section id="testimonials" class="testimonials section">
             <div class="container">
                 <h2 class="title text-center">Testimonials</h2>
                 <p class="intro text-center">Don’t just take our word for it – see what our clients are saying</p>
@@ -1365,26 +1417,26 @@
                                     <path fill="currentColor"
                                         d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z">
                                     </path>
-                                </svg><!-- <i class="fas fa-quote-left"></i> Font Awesome fontawesome.com -->
+                                </svg>
                                 <blockquote class="quote">We had great experience working with Phasellus ut cursus
                                     tellus. Etiam ullamcorper varius diam, nec consequat dolor gravida non. Nullam
                                     commodo feugiat arcu, ut scelerisque nisl vulputate eget. Cras a euismod elit.
 
-                                </blockquote><!--//quote-->
-                            </div><!--//quote-->
+                                </blockquote>
+                            </div>
                             <div class="meta row">
                                 <div class="profile col-8">
                                     <img src="./assets/images/client/client-profile-1.png" alt="">
                                     <p class="name">Katherine Hamilton<br>
                                         <span class="source-title">Product Manager</span>
                                     </p>
-                                </div><!--//profile-->
+                                </div>
                                 <div class="client-logo col align-self-center">
                                     <img src="./assets/images/client/client-logo-1.png" alt="">
-                                </div><!--//client-logo-->
-                            </div><!--//meta-->
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="item col-lg-6 col-12 px-5">
                         <div class="item-inner">
@@ -1395,26 +1447,25 @@
                                     <path fill="currentColor"
                                         d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z">
                                     </path>
-                                </svg><!-- <i class="fas fa-quote-left"></i> Font Awesome fontawesome.com -->
+                                </svg>
                                 <blockquote class="quote">Cras condimentum erat vel quam dignissim, eu venenatis velit
                                     porta. Praesent fermentum, mi sit amet mollis fringilla, ex risus condimentum
                                     mauris, at dapibus ipsum turpis non ipsum.
-                                </blockquote><!--//quote-->
-                            </div><!--//quote-->
+                                </blockquote>
+                            </div>
                             <div class="meta row">
                                 <div class="profile col-8">
                                     <img src="assets/images/client/client-profile-2.png" alt="">
                                     <p class="name">Aaron Brown<br>
                                         <span class="source-title">Marketing Director</span>
                                     </p>
-                                </div><!--//profile-->
+                                </div>
                                 <div class="client-logo col align-self-center">
                                     <img src="assets/images/client/client-logo-2.png" alt="">
-                                </div><!--//client-logo-->
-                            </div><!--//meta-->
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="clearfix"></div>
 
                     <div class="item col-lg-6 col-12 px-5">
@@ -1426,25 +1477,25 @@
                                     <path fill="currentColor"
                                         d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z">
                                     </path>
-                                </svg><!-- <i class="fas fa-quote-left"></i> Font Awesome fontawesome.com -->
+                                </svg>
                                 <blockquote class="quote">Pellentesque nec maximus justo, a ultrices ligula. Duis
                                     sollicitudin suscipit arcu eget interdum. Nullam et porttitor sem, id iaculis eros.
                                     Sed feugiat leo et ligula pulvinar, et lobortis velit pretium.
-                                </blockquote><!--//quote-->
-                            </div><!--//quote-->
+                                </blockquote>
+                            </div>
                             <div class="meta row">
                                 <div class="profile col-8">
                                     <img src="assets/images/client/client-profile-3.png" alt="">
                                     <p class="name">Phillip Perry<br>
                                         <span class="source-title">Product Manager</span>
                                     </p>
-                                </div><!--//profile-->
+                                </div>
                                 <div class="client-logo col align-self-center">
                                     <img src="assets/images/client/client-logo-3.png" alt="">
-                                </div><!--//client-logo-->
-                            </div><!--//meta-->
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="item col-lg-6 col-12 px-5">
                         <div class="item-inner">
@@ -1455,28 +1506,28 @@
                                     <path fill="currentColor"
                                         d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z">
                                     </path>
-                                </svg><!-- <i class="fas fa-quote-left"></i> Font Awesome fontawesome.com -->
+                                </svg>
                                 <blockquote class="quote">We are impressed by lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit. Maecenas tellus nisi, maximus vel risus vel, fermentum faucibus
                                     magna. Aliquam sed aliquet eros. Nunc nec aliquet ligula.
-                                </blockquote><!--//quote-->
-                            </div><!--//quote-->
+                                </blockquote>
+                            </div>
                             <div class="meta row">
                                 <div class="profile col-8">
                                     <img src="assets/images/client/client-profile-4.png" alt="">
                                     <p class="name">Victoria Simmons<br>
                                         <span class="source-title">Product Designer</span>
                                     </p>
-                                </div><!--//profile-->
+                                </div>
                                 <div class="client-logo col align-self-center">
                                     <img src="assets/images/client/client-logo-4.png" alt="">
-                                </div><!--//client-logo-->
-                            </div><!--//meta-->
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                </div><!--//row-->
-            </div><!--//container-->
-        </section><!--//testimonials-->
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section> -->
+
 
         <!-- ******Logos Section****** -->
         <section id="logos" class="logos section">
@@ -1511,12 +1562,14 @@
                 <h2 class="title">Want to have a quick chat?</h2>
                 <p class="phone contact-info">
                     <span class="intro">We are only a phone call away</span>
-                    <span class="info"><a class="text-link" href="tel:+08001234567">0800 123 4567</a></span>
+                    <span class="info"><a class="text-link" href="tel:+08001234567">+91 90524 45645</a></span>
                 </p><!--//phone-->
                 <p class="email contact-info">
                     <span class="intro">You can also email us</span>
                     <span class="info"><a class="text-link"
-                            href="mailto:hello@yourdevstudio.com">hello@yourdevstudio.com</a></span>
+                            href="mailto:infytechsolutions08@gmail.com
+">infytechsolutions08@gmail.com
+</a></span>
                 </p><!--//phone-->
             </div><!--//container-->
         </section><!--//cta-section-->
@@ -1640,19 +1693,7 @@
             <div class="footer-content">
                 <div class="container">
                     <div class="row">
-                        <div class="footer-col col-lg-3 col-md-4 col-12 links-col">
-                            <div class="footer-col-inner">
-                                <h3 class="sub-title">Quick Links</h3>
-                                <ul class="list-unstyled">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="work.html">Our work</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
-                                </ul>
-                            </div><!--//footer-col-inner-->
-                        </div><!--//foooter-col-->
+                      
                         <div class="footer-col col-lg-6 col-md-8 col-12 blog-col">
                             <div class="footer-col-inner">
                                 <h3 class="sub-title">Latest From Our Blog</h3>
@@ -1691,22 +1732,14 @@
                                     </div><!--//content-->
                                 </div>
                             </div><!--//footer-col-inner-->
-                        </div><!--//foooter-col-->
-                        <div class="footer-col col-lg-3 col-12 contact-col">
+                        </div>
+                        <div class="footer-col text-lg-end col-lg-6 col-12 contact-col">
                             <div class="footer-col-inner">
                                 <h3 class="sub-title">Get In Touch</h3>
                                 <p class="intro"></p>
                                 <div class="row">
                                     <p class="adr clearfix col-lg-12 col-md-4">
-                                        <!--//You can replace the SVG icon below to your preferred Bootstrap icon - https://icons.getbootstrap.com/ -->
-                                        <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-geo me-2"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-                                            <path d="M7.5 4h1v9a.5.5 0 0 1-1 0V4z"></path>
-                                            <path fill-rule="evenodd"
-                                                d="M6.489 12.095a.5.5 0 0 1-.383.594c-.565.123-1.003.292-1.286.472-.302.192-.32.321-.32.339 0 .013.005.085.146.21.14.124.372.26.701.382.655.246 1.593.408 2.653.408s1.998-.162 2.653-.408c.329-.123.56-.258.701-.382.14-.125.146-.197.146-.21 0-.018-.018-.147-.32-.339-.283-.18-.721-.35-1.286-.472a.5.5 0 1 1 .212-.977c.63.137 1.193.34 1.61.606.4.253.784.645.784 1.182 0 .402-.219.724-.483.958-.264.235-.618.423-1.013.57-.793.298-1.855.472-3.004.472s-2.21-.174-3.004-.471c-.395-.148-.749-.336-1.013-.571-.264-.234-.483-.556-.483-.958 0-.537.384-.929.783-1.182.418-.266.98-.47 1.611-.606a.5.5 0 0 1 .595.383z">
-                                            </path>
-                                        </svg>
+                                        
                                         <span class="adr-group">
                                             <span class="street-address">56 College Green Road</span><br>
                                             <span class="city">London</span><br>
@@ -1730,7 +1763,7 @@
                                             </path>
                                             <path d="M6.5 14a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1z"></path>
                                         </svg>
-                                        <a href="tel:+08001234567">0800 123 4567</a>
+                                        <a href="tel:+08001234567">+91 90524 45645</a>
                                     </p>
                                     <p class="email col-lg-12 col-md-4 col-12">
                                         <!--//You can replace the SVG icon below to your preferred Bootstrap icon - https://icons.getbootstrap.com/ -->
@@ -1740,7 +1773,8 @@
                                             <path fill-rule="evenodd"
                                                 d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
                                             </path>
-                                        </svg><a href="#">hello@yourdevstudio.com</a>
+                                        </svg><a href="#">infytechsolutions08@gmail.com
+</a>
                                     </p>
                                 </div>
                             </div><!--//footer-col-inner-->
@@ -1792,10 +1826,11 @@
                             target="_blank">3rd Wave Media</a></small>
                 </div><!--//container-->
             </div><!--//bottom-bar-->
-        </footer><!--//footer-->
+        </footer>
+
 
         <!-- Contact Modal -->
-        <div class="modal modal-contact" id="modal-contact" tabindex="-1" role="dialog"
+         <div class="modal modal-contact" id="modal-contact" tabindex="-1" role="dialog"
             aria-labelledby="contactModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -1804,8 +1839,7 @@
                         <h5 id="contactModalLabel" class="modal-title">Start your project today</h5>
                     </div>
                     <div class="modal-body">
-                        <p class="intro text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit laoreet
-                            tortor consequat nisi scelerisque commodo etiam justo sapien.</p>
+                        <p class="intro text-center">Tell us about your vision and let’s build something exceptional together. Whether you need a new website, a mobile app, or a custom solution — our team is here to help.</p>
                         <ul class="contact-info list-inline text-center">
                             <li class="tel list-inline-item">
                                 <div class="icon-holder mb-3">
@@ -1821,7 +1855,7 @@
 
                                 </div>
                                 <div>
-                                    <a class="text-link" href="+0800123456">0800 123 4567</a>
+                                    <a class="text-link" href="+0800123456">+91 90524 45645</a>
                                 </div>
                             </li>
                             <li class="email list-inline-item">
@@ -1835,28 +1869,29 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <a class="text-link" href="#">hello@yourdevstudio.com</a>
+                                    <a class="text-link" href="#">infytechsolutions08@gmail.com
+</a>
                                 </div>
                             </li>
                         </ul>
-                        <form id="contact-form" class="contact-form" method="post" action="#">
+                        <form id="whatsappForm" class="contact-form" method="post">
                             <div class="row text-center">
                                 <div class="contact-form-inner">
                                     <div class="row g-3">
 
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <label class="sr-only" for="cname">Your name</label>
-                                            <input type="text" class="form-control" id="cname" name="name"
+                                            <input type="text" class="form-control" id="name" name="name"
                                                 placeholder="Your name" minlength="2" required="">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <label class="sr-only" for="cemail">Email address</label>
-                                            <input type="email" class="form-control" id="cemail" name="email"
+                                            <input type="email" class="form-control" id="email" name="email"
                                                 placeholder="Your email address" required="">
                                         </div>
                                         <div class="col-lg-12 col-12">
                                             <label class="sr-only" for="cmessage">Your message</label>
-                                            <textarea class="form-control" id="cmessage" name="message"
+                                            <textarea class="form-control" id="message" name="message"
                                                 placeholder="Enter your message" rows="12" required=""></textarea>
                                         </div>
                                         <div class="col-lg-12 col-12">
@@ -1936,6 +1971,39 @@
         <script src="./assets/js/demo/style-switcher.js"></script>
 
 
+
+
+        <script>
+            document.getElementById('whatsappForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+              
+                // Get form values
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                // Validate inputs (optional)
+                if (!name || !phone || !message) {
+                    alert("Please fill all fields!");
+                    return;
+                }
+              
+                // WhatsApp number (replace with your number)
+                const whatsappNumber = '919052445645'; // Example: 91 (India) + 9721445005
+
+                // Format message (URI encoding for special characters)
+                const finalMessage = `*New Message*%0A%0A` +
+                    `*Name:* ${encodeURIComponent(name)}%0A` +
+                    `*Phone:* ${encodeURIComponent(phone)}%0A` +
+                    `*Message:* ${encodeURIComponent(message)}`;
+                
+                // Generate WhatsApp URL
+                const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${finalMessage}`;
+
+                // Open WhatsApp in a new tab
+                window.open(whatsappUrl);
+            });
+        </script>
 
 
     </body>
